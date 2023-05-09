@@ -38,7 +38,7 @@ public class Hangman_game {
         Random r = new Random();
         System.out.println("Let's Go !!!");
         String [] planet = {"mercury","venus","earth","mars","jupiter","saturn","uranus","neptune"};
-        int ind = r.nextInt(9);
+        int ind = r.nextInt(8);
 
         String planet_len = planet[ind];
         int len = planet_len.length();
